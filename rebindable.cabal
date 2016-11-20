@@ -3,12 +3,21 @@
 -- see: https://github.com/sol/hpack
 
 name:           rebindable
-version:        0.1.0
+version:        0.1.1
 synopsis:       A library to facilitate rebinding of Haskell syntax
+description:    A library to facilitate rebinding of Haskell syntax
+category:       Syntax
+homepage:       https://github.com/sleexyz/rebindable
+bug-reports:    https://github.com/sleexyz/rebindable/issues
+author:         Sean Lee
 maintainer:     Sean Lee <freshdried@gmail.com>
 license:        MIT
 build-type:     Simple
 cabal-version:  >= 1.10
+
+source-repository head
+  type: git
+  location: https://github.com/sleexyz/rebindable
 
 library
   hs-source-dirs:
