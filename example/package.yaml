@@ -1,0 +1,11 @@
+name: rebindable-example
+version: 0.0.0
+ghc-options: -pgmL markdown-unlit
+dependencies:
+  - base >= 4.9 && < 5
+  - data-default
+  - indexed
+  - indexed-extras
+  - rebindable
+library:
+  source-dirs: .

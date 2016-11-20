@@ -1,7 +1,10 @@
 resolver: lts-7.9
 packages:
   - '.'
+  - './example'
 extra-deps:
   - indexed-0.1.3
+  - indexed-extras-0.2
+  - bifunctors-5.3
 flags: {}
 extra-package-dbs: []
