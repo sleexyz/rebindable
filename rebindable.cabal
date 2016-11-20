@@ -3,7 +3,7 @@
 -- see: https://github.com/sol/hpack
 
 name:           rebindable
-version:        0.1.1
+version:        0.1.2
 synopsis:       A library to facilitate rebinding of Haskell syntax
 description:    A library to facilitate rebinding of Haskell syntax
 category:       Syntax
@@ -14,6 +14,9 @@ maintainer:     Sean Lee <freshdried@gmail.com>
 license:        MIT
 build-type:     Simple
 cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
 
 source-repository head
   type: git

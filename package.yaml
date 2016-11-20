@@ -1,5 +1,5 @@
 name: rebindable
-version: 0.1.1
+version: 0.1.2
 synopsis: A library to facilitate rebinding of Haskell syntax
 description: A library to facilitate rebinding of Haskell syntax
 homepage: https://github.com/sleexyz/rebindable
@@ -9,6 +9,8 @@ category: Syntax
 license: MIT
 github: sleexyz/rebindable
 ghc-options: -Wall
+extra-source-files:
+  - README.md
 dependencies:
   - base >= 4.9 && < 5
   - data-default-class
