@@ -1,0 +1,12 @@
+name: rebindable
+version: 0.1.0
+synopsis: A library to facilitate rebinding of Haskell syntax
+maintainer: Sean Lee <freshdried@gmail.com>
+license: MIT
+ghc-options: -Wall
+dependencies:
+  - base >= 4.9 && < 5
+  - data-default-class
+  - indexed
+library:
+  source-dirs: src
